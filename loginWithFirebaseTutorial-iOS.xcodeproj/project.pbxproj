@@ -3,14 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4E4F3083E3FB57767F5FEE95 /* Pods_loginWithFirebaseTutorial_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C2C8C982F8AE20C2B5D949 /* Pods_loginWithFirebaseTutorial_iOS.framework */; };
+		F88DE4072688DC8E00670968 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88DE4062688DC8E00670968 /* Signup.storyboard */; };
+		F88DE40B2688DCC600670968 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DE40A2688DCC600670968 /* SignupVC.swift */; };
+		F88DE40D2688DD1C00670968 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88DE40C2688DD1C00670968 /* Login.storyboard */; };
+		F88DE40F2688DD2500670968 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DE40E2688DD2500670968 /* LoginVC.swift */; };
+		F88DE4122688E34000670968 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DE4112688E34000670968 /* Storyboard.swift */; };
+		F88DE4142688E34A00670968 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DE4132688E34A00670968 /* Const.swift */; };
+		F88DE4162688E3A200670968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DE4152688E3A200670968 /* ViewController.swift */; };
+		F88DE4182688E3B500670968 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DE4172688E3B500670968 /* MainVC.swift */; };
 		F88E4B242688B50C00EDC53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E4B232688B50C00EDC53B /* AppDelegate.swift */; };
 		F88E4B262688B50C00EDC53B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E4B252688B50C00EDC53B /* SceneDelegate.swift */; };
-		F88E4B282688B50C00EDC53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E4B272688B50C00EDC53B /* ViewController.swift */; };
 		F88E4B2B2688B50C00EDC53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E4B292688B50C00EDC53B /* Main.storyboard */; };
 		F88E4B2D2688B50D00EDC53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E4B2C2688B50D00EDC53B /* Assets.xcassets */; };
 		F88E4B302688B50D00EDC53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E4B2E2688B50D00EDC53B /* LaunchScreen.storyboard */; };
@@ -20,10 +27,17 @@
 		45DE73F61D4529CF437E26FA /* Pods-loginWithFirebaseTutorial-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginWithFirebaseTutorial-iOS.release.xcconfig"; path = "Target Support Files/Pods-loginWithFirebaseTutorial-iOS/Pods-loginWithFirebaseTutorial-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		64C2C8C982F8AE20C2B5D949 /* Pods_loginWithFirebaseTutorial_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loginWithFirebaseTutorial_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D9F261ADAA03A47F861372 /* Pods-loginWithFirebaseTutorial-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginWithFirebaseTutorial-iOS.debug.xcconfig"; path = "Target Support Files/Pods-loginWithFirebaseTutorial-iOS/Pods-loginWithFirebaseTutorial-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F88DE4062688DC8E00670968 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		F88DE40A2688DCC600670968 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		F88DE40C2688DD1C00670968 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		F88DE40E2688DD2500670968 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F88DE4112688E34000670968 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		F88DE4132688E34A00670968 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		F88DE4152688E3A200670968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F88DE4172688E3B500670968 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F88E4B202688B50C00EDC53B /* loginWithFirebaseTutorial-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "loginWithFirebaseTutorial-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E4B232688B50C00EDC53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F88E4B252688B50C00EDC53B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F88E4B272688B50C00EDC53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F88E4B2A2688B50C00EDC53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F88E4B2C2688B50D00EDC53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88E4B2F2688B50D00EDC53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +62,6 @@
 				F1D9F261ADAA03A47F861372 /* Pods-loginWithFirebaseTutorial-iOS.debug.xcconfig */,
 				45DE73F61D4529CF437E26FA /* Pods-loginWithFirebaseTutorial-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,16 @@
 				64C2C8C982F8AE20C2B5D949 /* Pods_loginWithFirebaseTutorial_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F88DE4102688E30200670968 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F88DE4132688E34A00670968 /* Const.swift */,
+				F88DE4112688E34000670968 /* Storyboard.swift */,
+				F88DE4152688E3A200670968 /* ViewController.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		F88E4B172688B50C00EDC53B = {
@@ -81,15 +104,52 @@
 		F88E4B222688B50C00EDC53B /* loginWithFirebaseTutorial-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F88E4B312688B50D00EDC53B /* Info.plist */,
 				F88E4B232688B50C00EDC53B /* AppDelegate.swift */,
 				F88E4B252688B50C00EDC53B /* SceneDelegate.swift */,
-				F88E4B272688B50C00EDC53B /* ViewController.swift */,
-				F88E4B292688B50C00EDC53B /* Main.storyboard */,
-				F88E4B2C2688B50D00EDC53B /* Assets.xcassets */,
-				F88E4B2E2688B50D00EDC53B /* LaunchScreen.storyboard */,
-				F88E4B312688B50D00EDC53B /* Info.plist */,
+				F88E4B382688DBA100EDC53B /* Source */,
+				F88E4B372688DB7400EDC53B /* Resource */,
 			);
 			path = "loginWithFirebaseTutorial-iOS";
+			sourceTree = "<group>";
+		};
+		F88E4B372688DB7400EDC53B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F88E4B2C2688B50D00EDC53B /* Assets.xcassets */,
+				F88E4B3A2688DBB700EDC53B /* Storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F88E4B382688DBA100EDC53B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F88DE4102688E30200670968 /* Constants */,
+				F88E4B392688DBAF00EDC53B /* VCs */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F88E4B392688DBAF00EDC53B /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				F88DE40A2688DCC600670968 /* SignupVC.swift */,
+				F88DE40E2688DD2500670968 /* LoginVC.swift */,
+				F88DE4172688E3B500670968 /* MainVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		F88E4B3A2688DBB700EDC53B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F88E4B2E2688B50D00EDC53B /* LaunchScreen.storyboard */,
+				F88E4B292688B50C00EDC53B /* Main.storyboard */,
+				F88DE4062688DC8E00670968 /* Signup.storyboard */,
+				F88DE40C2688DD1C00670968 /* Login.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88DE4072688DC8E00670968 /* Signup.storyboard in Resources */,
 				F88E4B302688B50D00EDC53B /* LaunchScreen.storyboard in Resources */,
 				F88E4B2D2688B50D00EDC53B /* Assets.xcassets in Resources */,
+				F88DE40D2688DD1C00670968 /* Login.storyboard in Resources */,
 				F88E4B2B2688B50C00EDC53B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,9 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88E4B282688B50C00EDC53B /* ViewController.swift in Sources */,
 				F88E4B242688B50C00EDC53B /* AppDelegate.swift in Sources */,
+				F88DE40B2688DCC600670968 /* SignupVC.swift in Sources */,
 				F88E4B262688B50C00EDC53B /* SceneDelegate.swift in Sources */,
+				F88DE4122688E34000670968 /* Storyboard.swift in Sources */,
+				F88DE40F2688DD2500670968 /* LoginVC.swift in Sources */,
+				F88DE4182688E3B500670968 /* MainVC.swift in Sources */,
+				F88DE4162688E3A200670968 /* ViewController.swift in Sources */,
+				F88DE4142688E34A00670968 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
