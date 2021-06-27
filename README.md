@@ -1,2 +1,2 @@
-# loginWithFirebase-iOS
+# loginWithFirebaseTutorial-iOS
 😎 Login tutorial using firebase
