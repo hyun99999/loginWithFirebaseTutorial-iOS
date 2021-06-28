@@ -25,6 +25,14 @@ class SignupVC: UIViewController {
         setUI()
     }
     
+    // MARK: - @IBAction Properties
+    @IBAction func touchSignupBtn(_ sender: Any) {
+        self.dismiss(animated: true) {
+            //회원가입
+        }
+    }
+}
+extension SignupVC {
     // MARK: - Methods
     func setUI() {
         idLabel.text = "ID"
@@ -38,13 +46,5 @@ class SignupVC: UIViewController {
         signupBtn.setTitleColor(.white, for: .normal)
         signupBtn.backgroundColor = UIColor.systemBlue
         signupBtn.layer.cornerRadius = 10
-    }
-    
-
-    // MARK: - @IBAction Properties
-    @IBAction func touchSignupBtn(_ sender: Any) {
-        self.dismiss(animated: true) {
-            //회원가입
-        }
     }
 }
