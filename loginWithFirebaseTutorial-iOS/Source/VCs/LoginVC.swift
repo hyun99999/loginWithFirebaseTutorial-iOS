@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginVC: UIViewController {
 
@@ -16,6 +17,8 @@ class LoginVC: UIViewController {
     @IBOutlet weak var pwdLabel: UILabel!
     @IBOutlet weak var signUpBtn: UIButton!
     @IBOutlet weak var logInBtn: UIButton!
+    @IBOutlet weak var idTextField: UITextField!
+    @IBOutlet weak var pwdTextField: UITextField!
     
     // MARK: - View Life Cycle
     override func viewDidLoad() {
@@ -45,6 +48,24 @@ class LoginVC: UIViewController {
         logInBtn.layer.cornerRadius = 10
     }
     
+    func login(id: String, pw: String){
+        Auth.auth().signIn(withEmail: id, password: pw) {
+            (user, error) in
+            if user != nil{
+                print("login success")
+                
+                guard let nextVC = UIStoryboard(name: Const.Storyboard.Name.Main, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.Name.Main) as? MainVC else {
+                    return
+                }
+                nextVC.id = (user?.user.email!)!
+                self.present(nextVC, animated: true, completion: nil)
+            }
+            else{
+                print("login fail")
+            }
+        }
+    }
+    
     // MARK: - @IBAction Properties
     @IBAction func presentToSignup(_ sender: Any) {
         guard let nextVC = UIStoryboard(name: Const.Storyboard.Name.Signup, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.Name.Signup) as? SignupVC else {
@@ -54,10 +75,14 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func presentToMain(_ sender: Any) {
-        guard let nextVC = UIStoryboard(name: Const.Storyboard.Name.Main, bundle: nil).instantiateViewController(withIdentifier: Const.ViewController.Name.Main) as? MainVC else {
+        guard let id = idTextField.text else {
             return
         }
-        self.present(nextVC, animated: true, completion: nil)
+        guard let pwd = pwdTextField.text else {
+            return
+        }
+        login(id: id, pw: pwd)
+        
     }
     
 

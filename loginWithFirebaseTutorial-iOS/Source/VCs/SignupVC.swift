@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignupVC: UIViewController {
     
@@ -27,8 +28,21 @@ class SignupVC: UIViewController {
     
     // MARK: - @IBAction Properties
     @IBAction func touchSignupBtn(_ sender: Any) {
-        self.dismiss(animated: true) {
-            //회원가입
+        guard let id = idTextField.text else {
+            return
+        }
+        guard let pwd = pwdTextField.text else {
+            return
+        }
+        Auth.auth().createUser(withEmail: id, password: pwd) {(authResut, error) in
+            print(error?.localizedDescription as Any)
+        
+        guard let user = authResut?.user else {
+            return
+        }
+
+        print(user)
+        self.dismiss(animated: true, completion: nil)
         }
     }
 }

@@ -21,6 +21,7 @@
 		F88E4B2B2688B50C00EDC53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E4B292688B50C00EDC53B /* Main.storyboard */; };
 		F88E4B2D2688B50D00EDC53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E4B2C2688B50D00EDC53B /* Assets.xcassets */; };
 		F88E4B302688B50D00EDC53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E4B2E2688B50D00EDC53B /* LaunchScreen.storyboard */; };
+		F8AF7B62268A3187000C0BA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8AF7B61268A3187000C0BA7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F88E4B2C2688B50D00EDC53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88E4B2F2688B50D00EDC53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F88E4B312688B50D00EDC53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8AF7B61268A3187000C0BA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F88E4B312688B50D00EDC53B /* Info.plist */,
-				F88E4B232688B50C00EDC53B /* AppDelegate.swift */,
-				F88E4B252688B50C00EDC53B /* SceneDelegate.swift */,
+				F8AF7B61268A3187000C0BA7 /* GoogleService-Info.plist */,
 				F88E4B382688DBA100EDC53B /* Source */,
 				F88E4B372688DB7400EDC53B /* Resource */,
 			);
@@ -116,6 +117,8 @@
 		F88E4B372688DB7400EDC53B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F88E4B232688B50C00EDC53B /* AppDelegate.swift */,
+				F88E4B252688B50C00EDC53B /* SceneDelegate.swift */,
 				F88E4B2C2688B50D00EDC53B /* Assets.xcassets */,
 				F88E4B3A2688DBB700EDC53B /* Storyboard */,
 			);
@@ -213,6 +216,7 @@
 			files = (
 				F88DE4072688DC8E00670968 /* Signup.storyboard in Resources */,
 				F88E4B302688B50D00EDC53B /* LaunchScreen.storyboard in Resources */,
+				F8AF7B62268A3187000C0BA7 /* GoogleService-Info.plist in Resources */,
 				F88E4B2D2688B50D00EDC53B /* Assets.xcassets in Resources */,
 				F88DE40D2688DD1C00670968 /* Login.storyboard in Resources */,
 				F88E4B2B2688B50C00EDC53B /* Main.storyboard in Resources */,
