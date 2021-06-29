@@ -10,3 +10,6 @@
 
 - 로그인 성공
 <img src = "https://user-images.githubusercontent.com/69136340/123741726-7c552f80-d8e5-11eb-904f-0c70f8cd70b7.png" width = "250">
+
+- 파이어베이스에 회원가입된 회원정보
+<img src ="https://user-images.githubusercontent.com/69136340/123741894-cb9b6000-d8e5-11eb-930c-ed0b96fe0bf2.png" width ="600">
